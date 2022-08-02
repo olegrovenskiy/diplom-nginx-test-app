@@ -1,0 +1,1 @@
+# diplom-nginx-test-app
