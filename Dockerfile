@@ -1,8 +1,6 @@
 FROM nginx:latest
 
-RUN mkdir /data/
-
-RUN mkdir /data/images/
+RUN mkdir -p /data/images
 
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
